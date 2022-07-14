@@ -21,7 +21,7 @@ function useRequest(url, callback) {
   };
   
   // Ищем ноду для вставки результата запроса
-  const resultNode = document.querySelector('.j-result');
+  const resultNode = document.querySelector('.result');
   // Ищем кнопку, по нажатии на которую будет запрос
   const btnNode = document.querySelector('.j-btn-request');
   
